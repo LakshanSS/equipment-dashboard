@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import EquipmentDashboard from "./EquipmentDashboard";
 
 function App() {
   return (
     <div className="App">
-      Equipment Dashboard
+        <EquipmentDashboard/>
     </div>
   );
 }
