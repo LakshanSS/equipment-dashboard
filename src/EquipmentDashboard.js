@@ -49,7 +49,7 @@ export default function EquipmentDashboard() {
 
         while (isLengthMoreThan100) {
             try {
-                const response = await fetch('http://ivivaanywhere.ivivacloud.com/api/Asset/Asset/All?apikey=SC:demo:64a9aa122143a5db&max=100&last=' + lastRow);
+                const response = await fetch('/api/Asset/Asset/All?apikey=SC:demo:64a9aa122143a5db&max=100&last=' + lastRow);
                 const json = await response.json();
                 json.forEach(k => {
                         let foundIndex = data.findIndex(x => x.label === k.AssetCategoryID);
