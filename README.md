@@ -1,3 +1,4 @@
+![Alt text](/screenshots/screenshot.png?raw=true "Screenshot")
 
 ## How to run the project
 
